@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "880022067779",
+    "firebase_url": "https://taxi-a991a.firebaseio.com",
+    "project_id": "taxi-a991a",
+    "storage_bucket": "taxi-a991a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880022067779:android:83dcf51f2b3bce0d",
+        "android_client_info": {
+          "package_name": "com.souvenir.taxiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880022067779-tm8ht8agbq5kvhl2c81icnk34r6k1g5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxNIS5eAobP6tmyb5Qtg3tKrSWMW3mZDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880022067779-tm8ht8agbq5kvhl2c81icnk34r6k1g5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
