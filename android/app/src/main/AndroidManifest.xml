@@ -19,7 +19,7 @@
         android:label="taxi_app"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC-vlZjLbpa3hvCEuhrRnG_VdM_EA8hPAI"/>
+            android:value="AIzaSyDVB0jTF7R2g1haWlKKRzbbJbi9Xc9_t0Q"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

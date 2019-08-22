@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:taxi_app/src/model/place_item_res.dart';
 import 'package:taxi_app/src/widgets/home_menu.dart';
 import 'package:taxi_app/src/widgets/ride_picker.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -51,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Padding(
                     padding: EdgeInsets.only(top: 20, left: 20, right: 20),
-                    child: RidePicker(),
+                    child: RidePicker(onPlaceSelected),
                   ),
                 ],
               ),
@@ -63,5 +65,9 @@ class _HomePageState extends State<HomePage> {
         child: HomeMenu(),
       ),
     );
+  }
+  void onPlaceSelected(PlaceItemRes place, bool fromAddress) {
+    var mkId = fromAddress ? "from_address" : "to_address";
+    print(mkId);
   }
 }
