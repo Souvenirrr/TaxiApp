@@ -6,9 +6,9 @@ import 'dart:convert';
 
 class PlaceService{
   static Future<List<PlaceItemRes>> searchPlace(String keyword) async {
-    //Configs configs = new Configs();
+    Configs configs = new Configs();
     String url = "https://maps.googleapis.com/maps/api/place/textsearch/json?key=" +
-        "AIzaSyDVB0jTF7R2g1haWlKKRzbbJbi9Xc9_t0Q" +
+        configs.key +
         "&language=vi&region=VN&query=" +
         Uri.encodeQueryComponent(keyword);
     
